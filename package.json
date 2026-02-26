@@ -1,0 +1,36 @@
+{
+  "name": "PIXI Demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "lint": "eslint . --ext .ts,.tsx --ignore-pattern .next --max-warnings 10",
+    "check-types": "tsc --noEmit",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@pixi/react": "^8.0.5",
+    "next": "16.0.10",
+    "pixi.js": "^8.15.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.2.1",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.10",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitest/ui": "^1.0.4",
+    "postcss": "^8",
+    "prettier": "^3.5.2",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.1.0",
+    "vitest": "^1.0.4"
+  }
+}
